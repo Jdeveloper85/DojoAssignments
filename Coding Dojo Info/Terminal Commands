@@ -1,0 +1,128 @@
+Microsoft Windows [Version 10.0.16299.371]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\Jdeveloper85>DIR
+ Volume in drive C is OS
+ Volume Serial Number is C6E8-1E85
+
+ Directory of C:\Users\Jdeveloper85
+
+04/16/2018  04:25 PM    <DIR>          .
+04/16/2018  04:25 PM    <DIR>          ..
+04/13/2018  03:35 PM    <DIR>          .vscode
+04/10/2018  08:04 PM    <DIR>          3D Objects
+04/02/2018  08:49 PM    <DIR>          ansel
+04/10/2018  08:04 PM    <DIR>          Contacts
+04/16/2018  06:16 PM    <DIR>          Desktop
+04/11/2018  01:17 PM    <DIR>          Documents
+04/16/2018  01:57 PM    <DIR>          Downloads
+04/10/2018  08:04 PM    <DIR>          Favorites
+04/10/2018  08:04 PM    <DIR>          Links
+04/10/2018  08:04 PM    <DIR>          Music
+04/16/2018  08:00 PM    <DIR>          OneDrive
+04/10/2018  08:04 PM    <DIR>          Pictures
+04/10/2018  08:04 PM    <DIR>          Saved Games
+04/10/2018  08:04 PM    <DIR>          Searches
+04/16/2018  08:00 PM    <DIR>          Videos
+               0 File(s)              0 bytes
+              17 Dir(s)  896,594,841,600 bytes free
+
+C:\Users\Jdeveloper85>cd documents
+
+C:\Users\Jdeveloper85\Documents>cd..
+
+C:\Users\Jdeveloper85>cd documents
+
+C:\Users\Jdeveloper85\Documents>mkdir test
+
+C:\Users\Jdeveloper85\Documents>cd test
+
+C:\Users\Jdeveloper85\Documents\test>cd newFolder
+The system cannot find the path specified.
+
+C:\Users\Jdeveloper85\Documents\test>md newFolder
+
+C:\Users\Jdeveloper85\Documents\test>cd newFolder
+
+C:\Users\Jdeveloper85\Documents\test\newFolder>copy NUL index.html, styles.css, commands.txt
+The syntax of the command is incorrect.
+
+C:\Users\Jdeveloper85\Documents\test\newFolder>copy NUL index.html
+        1 file(s) copied.
+
+C:\Users\Jdeveloper85\Documents\test\newFolder>copy NUL styles.css
+        1 file(s) copied.
+
+C:\Users\Jdeveloper85\Documents\test\newFolder>copy NUL commands.txt
+        1 file(s) copied.
+
+C:\Users\Jdeveloper85\Documents\test\newFolder>copy original index.html copy index.html
+The system cannot find the file specified.
+
+C:\Users\Jdeveloper85\Documents\test\newFolder>copy index.html newindex_2.html
+        1 file(s) copied.
+
+C:\Users\Jdeveloper85\Documents\test\newFolder>del styles.css del/p styles.css
+C:\Users\Jdeveloper85\Documents\test\newFolder\styles.css, Delete (Y/N)? y
+
+C:\Users\Jdeveloper85\Documents\test\newFolder>start
+
+C:\Users\Jdeveloper85\Documents\test\newFolder>cd desktop
+The system cannot find the path specified.
+
+C:\Users\Jdeveloper85\Documents\test\newFolder>cd..
+
+C:\Users\Jdeveloper85\Documents\test>md destination
+
+C:\Users\Jdeveloper85\Documents\test>move test\index_2.html destination\index_2.html
+The system cannot find the file specified.
+
+C:\Users\Jdeveloper85\Documents\test>move index_2.html destination\folder
+The system cannot find the file specified.
+
+C:\Users\Jdeveloper85\Documents\test>mv test/index_2.html destination/index_2.html
+'mv' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Jdeveloper85\Documents\test>move test/index_2.html destination/index_2.html
+The system cannot find the path specified.
+
+C:\Users\Jdeveloper85\Documents\test>move newFolder/index_2.html destination/index_2.html
+The system cannot find the path specified.
+
+C:\Users\Jdeveloper85\Documents\test>move newFolder/newindex_2.html destination/newindex_2.html
+The system cannot find the path specified.
+
+C:\Users\Jdeveloper85\Documents\test>move newindex_2.html destination\newindex_2.html
+The system cannot find the file specified.
+
+C:\Users\Jdeveloper85\Documents\test>cd
+C:\Users\Jdeveloper85\Documents\test
+
+C:\Users\Jdeveloper85\Documents\test>move \newindex_2.html destination\newindex_2.html
+The system cannot find the file specified.
+
+C:\Users\Jdeveloper85\Documents\test>cd newFolder
+
+C:\Users\Jdeveloper85\Documents\test\newFolder>move newindex_2.html destination\newindex_2.html
+The system cannot find the path specified.
+        0 file(s) moved.
+
+C:\Users\Jdeveloper85\Documents\test\newFolder>cd..
+
+C:\Users\Jdeveloper85\Documents\test>dir
+ Volume in drive C is OS
+ Volume Serial Number is C6E8-1E85
+
+ Directory of C:\Users\Jdeveloper85\Documents\test
+
+04/16/2018  10:00 PM    <DIR>          .
+04/16/2018  10:00 PM    <DIR>          ..
+04/16/2018  10:00 PM    <DIR>          destination
+04/16/2018  09:52 PM    <DIR>          newFolder
+               0 File(s)              0 bytes
+               4 Dir(s)  896,577,167,360 bytes free
+
+C:\Users\Jdeveloper85\Documents\test>rd destination
+
+C:\Users\Jdeveloper85\Documents\test>newindex_2.html

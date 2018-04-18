@@ -1,0 +1,16 @@
+ Volume in drive C is OS
+ Volume Serial Number is C6E8-1E85
+
+ Directory of C:\Users\Jdeveloper85\Desktop\DojoAssignments
+
+04/16/2018  11:48 PM    <DIR>          .
+04/16/2018  11:48 PM    <DIR>          ..
+04/16/2018  11:18 PM    <DIR>          iOS
+04/16/2018  11:17 PM    <DIR>          MEAN
+04/16/2018  11:19 PM    <DIR>          netCore
+04/16/2018  11:48 PM                 0 print.txt
+04/16/2018  11:16 PM    <DIR>          Python
+04/16/2018  11:17 PM    <DIR>          Ruby
+04/16/2018  11:22 PM    <DIR>          WebFundamentals
+               1 File(s)              0 bytes
+               8 Dir(s)  896,572,346,368 bytes free
